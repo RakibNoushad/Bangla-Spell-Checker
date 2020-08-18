@@ -8,7 +8,7 @@ def read_dictionary_file():
     global contents
     
 
-    with open("list.txt","r",encoding='utf-8') as f:
+    with open("DataList.txt","r",encoding='utf-8') as f:
     
         contents = f.read()
     dictionary = set(
